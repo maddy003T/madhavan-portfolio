@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Madhavan T</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">PORTFOLIO.</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-subtitle">Hello, I'm</span>
+                <h1>Madhavan T</h1>
+                <p class="hero-text">
+                    Hi, I’m Madhavan T — an Embedded Systems Developer focused on IoT, secure embedded systems, and
+                    microcontroller-based design.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-padding" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="profile_1.jpg" alt="Madhavan T"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p style="margin-bottom: 20px; color: var(--text-muted);">
+                        I am Madhavan T, a Embedded Systems Developer with strong skills in ARM microcontrollers
+                        and Embedded C programming. I have worked on secure embedded projects using RFID, UART, I2C, and
+                        EEPROM and have a keen interest in IoT and secure embedded systems.
+                        <br><br>
+                        I am passionate about designing reliable, efficient, and real-time embedded solutions and
+                        continuously improving my technical and problem-solving skills. My goal is to start my
+                        professional career in embedded systems and contribute to innovative and impactful products.
+                    </p>
+
+                    <h3>My Skills</h3>
+                    <div class="tags">
+                        <span class="tag">Embedded Systems</span>
+                        <span class="tag">C/C++</span>
+                        <span class="tag">IoT</span>
+                        <span class="tag">RFID</span>
+                        <span class="tag">CAN Protocol</span>
+                        <span class="tag">Data Structures</span>
+                    </div>
+
+                    <a href="Madhavan_Resume.pdf" target="_blank" class="btn">Download CV <i
+                            class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section-padding" id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-img"
+                        style="background: linear-gradient(45deg, #1a1a1a, #2a2a2a); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-vote-yea" style="font-size: 3rem; color: var(--secondary-color);"></i>
+                    </div>
+                    <h3 class="project-title">RFID Voting System</h3>
+                    <p class="project-desc">
+                        A secure embedded voting system using RFID technology to ensure authentic and tamper-proof
+                        elections.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Embedded</span>
+                        <span class="tag">RFID</span>
+                        <span class="tag">Security</span>
+                    </div>
+                    <a href="https://github.com/maddy003T/Secure-Embedded-RFID-Based-Voting-System" target="_blank"
+                        class="btn-link">View Code <i class="fab fa-github"></i></a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-img"
+                        style="background: linear-gradient(45deg, #1a1a1a, #2a2a2a); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-car" style="font-size: 3rem; color: var(--secondary-color);"></i>
+                    </div>
+                    <h3 class="project-title">Vehicle Dashboard Monitor</h3>
+                    <p class="project-desc">
+                        CAN-based vehicle dashboard monitoring system for real-time tracking of vehicle parameters.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">CAN Protocol</span>
+                        <span class="tag">Automotive</span>
+                    </div>
+                    <a href="https://github.com/maddy003T/CAN_Based_Vehicle_Dashboard_Monitering_System" target="_blank"
+                        class="btn-link">View Code <i class="fab fa-github"></i></a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-img"
+                        style="background: linear-gradient(45deg, #1a1a1a, #2a2a2a); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-id-card" style="font-size: 3rem; color: var(--secondary-color);"></i>
+                    </div>
+                    <h3 class="project-title">RFID Auth System</h3>
+                    <p class="project-desc">
+                        An authentication system leveraging RFID tags for secure access control.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">RFID</span>
+                        <span class="tag">Auth</span>
+                    </div>
+                    <a href="https://github.com/maddy003T/rfid-authentication-system" target="_blank"
+                        class="btn-link">View Code <i class="fab fa-github"></i></a>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-img"
+                        style="background: linear-gradient(45deg, #1a1a1a, #2a2a2a); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-database" style="font-size: 3rem; color: var(--secondary-color);"></i>
+                    </div>
+                    <h3 class="project-title">Student Record Organizer</h3>
+                    <p class="project-desc">
+                        Efficient student record management system implemented using Linked List operations.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Data Structures</span>
+                        <span class="tag">C++</span>
+                    </div>
+                    <a href="https://github.com/maddy003T/Student_Record_Organizer_Using_Linked-List-_Operations"
+                        target="_blank" class="btn-link">View Code <i class="fab fa-github"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section-padding" id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+
+                <!-- Item 1 -->
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h3>Trainee - Embedded Systems</h3>
+                        <span style="color: var(--secondary-color); font-size: 0.9rem;">May 2025 - Present</span>
+                        <p style="margin-top: 10px; color: var(--text-muted);">
+                            Embedded System Domain
+                            <br>
+                            Gaining hands-on training in Embedded C & ARM LPC2129.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h3>BE - Electronics & Communication</h3>
+                        <span style="color: var(--secondary-color); font-size: 0.9rem;">2021 - 2025</span>
+                        <p style="margin-top: 10px; color: var(--text-muted);">
+                            Kumaraguru College of Technology, Coimbatore
+                            <br>
+                            Bachelor of Engineering in Electronics and Communication Engineering.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding" id="contact">
+        <div class="container">
+            <h2 style="text-align: center; display: block;">Get In Touch</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: var(--text-muted);">
+                Have a project in mind or just want to say hi? Feel free to send me a message!
+            </p>
+
+            <form class="contact-form" action="mailto:madhavansaran2003@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send
+                    Message</button>
+            </form>
+
+            <div style="text-align: center; margin-top: 40px; font-size: 1.5rem;">
+                <a href="https://github.com/maddy003T" target="_blank" style="margin: 0 10px;"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/madhavan003/" target="_blank" style="margin: 0 10px;"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:madhavansaran2003@gmail.com" style="margin: 0 10px;"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Madhavan T. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
